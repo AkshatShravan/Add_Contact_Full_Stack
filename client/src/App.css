@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #00d2ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #928dab,
+    #00d2ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #928dab,
+    #00d2ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nav_bar {
+  /* background-color: black; */
+  padding: 10px;
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.edit_delete > button {
+  transition: 0.5s;
+}
+
+.edit_delete > button:hover {
+  transform: scale(1.2);
+}
+
+.edit_contact{
+  transition: 0.5s !important;
+}
+
+.edit_contact:hover{
+  transform: scale(1.2);
+}
+
+.card > img {
+  transition: 0.5s;
+}
+
+.card > img:hover {
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+
+.contact_card {
+  transition: 0.5s;
+}
+
+.contact_card:hover {
+  transform: scale(1.05);
+}
+
+.anim {
+  transition: 0.5s !important;
+}
+
+.anim:hover {
+  transform: scale(1.2);
+}
+
+.main_card {
+  height: 70vh;
+  overflow: scroll;
+  transition: 0.5s;
+  background: #f7971e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffd200,
+    #f7971e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffd200,
+    #f7971e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card_list{
+  background: #f7971e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffd200,
+    #f7971e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffd200,
+    #f7971e
+  ); 
+}
+
+.nav_button{
+  transition: 0.5s !important;
+}
+
+.nav_button:hover{
+  transform: scale(1.05);
+}
+
+.react_logo{
+  display: block;
+  animation: rotation 8s infinite linear;
+  height: 50vh;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
